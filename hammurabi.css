@@ -20,6 +20,13 @@ footer {
     }
 }
 
+.secondHeader {
+    color: green;
+}
+#year {
+    color: green;
+}
+
 #people {
     display: block;
     padding-left: 0;
