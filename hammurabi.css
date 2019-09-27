@@ -1,19 +1,24 @@
+/* Writen By Oscar Dahlberg for D0015E 2019/09/26 */
+
 header {
     color: darkblue;
     padding: 1px;
     text-align: center;
     font-size: 35px;
 }
+
 button {
     margin: 30px 25px 0 0;
     padding: 10px 15px;
 }
+
 footer {
     position: absolute;
     bottom: 0;
     overflow-x: hidden;
     width: 99vw;
 }
+
 @media only screen and (max-height: 800px) {
     footer {
         display: none;
@@ -23,6 +28,7 @@ footer {
 .secondHeader {
     color: green;
 }
+
 #year {
     color: green;
 }
@@ -32,15 +38,18 @@ footer {
     padding-left: 0;
     list-style: none;
 }
+
 #people li {
     display: inline;
     margin-right: 10px;
 }
+
 #economy {
     display: block;
     padding-left: 0;
     list-style: none;
 }
+
 .fieldset {
     border-style: none;
 }
@@ -48,6 +57,7 @@ footer {
 #main {
     width: 100%;
 }
+
 #history {
     color: saddlebrown;
     width: 28%;
@@ -55,15 +65,18 @@ footer {
     text-align: center;
     float: left;
 }
+
 #kung {
     color: darkorange;
 }
+
 #game {
     width: 44%;
     display: inline-block;
     text-align: center;
     float: left;
 }
+
 #help {
     color: red;
     width: 28%;
@@ -71,6 +84,7 @@ footer {
     text-align: center;
     float: left;
 }
+
 #merHelp {
     color: darkred;
 }
